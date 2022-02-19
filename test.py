@@ -1,3 +1,6 @@
+#! /bin/python
+
+# Made by Sarthak
 import random
 import string
 
