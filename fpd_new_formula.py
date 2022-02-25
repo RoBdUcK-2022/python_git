@@ -1,8 +1,9 @@
-import math
+# Value of pi
 
+pi = 3.14
 def main(L, base_layer_thickness, t):
     print_repeat_length = L
-    K = 2 * math.pi * (t-base_layer_thickness)
+    K = 2 * pi * (t-base_layer_thickness)
 
     # Getting .xx (Decimal int)
     K = str(K)[0:5]
