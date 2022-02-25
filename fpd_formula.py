@@ -1,5 +1,5 @@
-import math
-# mm
+# Value of pi
+pi = 3.14
 
 L = 500
 print_repeat_length = L
@@ -7,7 +7,7 @@ base_layer_thickness = 0.1
 t = 2.84
 
 def main():
-    K = 2 * math.pi * (t-base_layer_thickness)
+    K = 2 * pi * (t-base_layer_thickness)
 
     K = str(K)[0:5]
     
