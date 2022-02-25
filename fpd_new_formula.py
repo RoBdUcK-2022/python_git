@@ -10,7 +10,7 @@ def main(L, base_layer_thickness, t):
     FPD = ((print_repeat_length-float(K))/print_repeat_length)*100
     FPD = str(FPD)[0:5]
 
-    print(f"K = {K}")
+    print(f"K = {K} mm")
     print(f"FPD = {FPD}%")
 
 main(500, 0.1, 2.84)

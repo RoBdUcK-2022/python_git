@@ -15,7 +15,7 @@ def main():
     FPD = ((print_repeat_length-float(K))/print_repeat_length)*100
 
     FPD = str(FPD)[0:5]
-    print("This is K : ", K)
+    print(f"This is K : {K} mm")
     print(f"This is FPD : {FPD}%")
 
 main()
